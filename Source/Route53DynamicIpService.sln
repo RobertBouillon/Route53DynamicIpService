@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Route53DynamicIpService", "Route53DynamicIpService\Route53DynamicIpService.csproj", "{0035C107-3D5A-43A2-9AB9-3FD774D6D58C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0035C107-3D5A-43A2-9AB9-3FD774D6D58C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0035C107-3D5A-43A2-9AB9-3FD774D6D58C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0035C107-3D5A-43A2-9AB9-3FD774D6D58C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0035C107-3D5A-43A2-9AB9-3FD774D6D58C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44B51EA9-FBD3-40F9-A671-68738FB1D673}
+	EndGlobalSection
+EndGlobal

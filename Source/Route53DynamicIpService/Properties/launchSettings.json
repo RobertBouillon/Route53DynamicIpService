@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "Route53DynamicIpUpdater": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
