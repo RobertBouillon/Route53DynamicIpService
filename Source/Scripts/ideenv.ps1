@@ -8,6 +8,9 @@ $script_path = "$($PSScriptRoot)\$($MyInvocation.MyCommand.Name)"               
 $env:ASPNETCORE_ENVIRONMENT = "Development"                                                                               #Important if using `dotnet watch`: Disables caching - JS files are otherwise cached.
 function prompt {"PS $(Split-Path -Path $pwd -Leaf)> "}                                                                   #Prompt with current directory name
 #function prompt {"PS> "}                                                                                                 #Alternate Simple Prompt for smaller screens
+$project_name = (Get-Item $root_path).Name
+$Host.UI.RawUI.WindowTitle = "$project_name Project Shell"
+
 
 function assets()
 {

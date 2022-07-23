@@ -10,12 +10,16 @@ internal class Ipify : IDisposable
 
   public async Task<string> FetchPublicIpAsync()
   {
-    HttpResponseMessage response;
+    HttpResponseMessage response = null;
     while (true)
     {
-      response = await _client.GetAsync("https://api.ipify.org");
+      try
+      {
+        response = await _client.GetAsync("https://api.ipify.org");
+      }
+      catch { }
 
-      if (response.IsSuccessStatusCode)
+      if (response?.IsSuccessStatusCode ?? false)
         break;
       else
         await Task.Delay(TimeSpan.FromSeconds(10));
