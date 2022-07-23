@@ -5,6 +5,11 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Route53DynamicIpService", "Route53DynamicIpService\Route53DynamicIpService.csproj", "{0035C107-3D5A-43A2-9AB9-3FD774D6D58C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{E4DCC4D0-2BED-4CC6-BA70-9F2E2A8E46FB}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\ideenv.ps1 = Scripts\ideenv.ps1
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
